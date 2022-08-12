@@ -19,9 +19,9 @@
 | ------------- | ------------- | ------------- |
 | [ ] Update Ticket | Not Started | |
 | - [ ] Highlight revised information | Not Started | |
-| ------------- | ------------- | ------------- |
 
 | **Features** | **Status** | **Comment** |
+| ------------- | ------------- | ------------- |
 | [ ] Assign Ticket | Not Started | |
 
 | **Features** | **Status** | **Comment** |
