@@ -5,10 +5,10 @@
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
 | [ ] Submit Ticket | Not Started | |
-| - [ ] Title | Not Started | |
-| - [ ]  Description | Not Started | | 
-| - [ ] Attach Images | Not Started | |
-| - [ ] Delete Images | Not Started | |
+| <ul><li> - [ ] Title </li></ul>| Not Started | |
+| <ul><li> - [ ]  Description </li></ul> | Not Started | | 
+| <ul><li> - [ ] Attach Images </li></ul> | Not Started | |
+| <ul><li> - [ ] Delete Images </li></ul> | Not Started | |
 
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
