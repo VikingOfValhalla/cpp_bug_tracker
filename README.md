@@ -1,7 +1,5 @@
 # C++ Bug Tracker:
 
-### Features:
-
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
 | <li> [ ] **_Submit Ticket_** </li> | Not Started | |
