@@ -3,7 +3,7 @@
 ### Features:
 
 | **Features** | **Status** | **Comment** |
-| --- | --- | --- |
+| ------------- | ------------- | ------------- |
 | [ ] Submit Ticket | Not Started | |
 | - [ ] Title | Not Started | |
 | - [ ]  Description | Not Started | | 
