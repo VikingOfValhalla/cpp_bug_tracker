@@ -14,4 +14,4 @@
 | <li> [ ] Update Ticket </li> | Not Started | |
 | <li> [ ] - Highlight revised information </li> | Not Started | |
 | <li> [ ] <u>Assign Ticket</u> </li> | Not Started | |
-| [ ] <u>Report of Open Tickets</u> | Not Started | |
+| <li> [ ] **_Report of Open Tickets_** </li> | Not Started | |
