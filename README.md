@@ -2,8 +2,8 @@
 
 Ticketing system aimed at displaying, tracking, and managing bugs for actionable requests.
 
-Online UML Application - https://app.diagrams.net/
-GUI Library - QT: https://www.qt.io/
+Online UML Application - https://app.diagrams.net/  
+GUI Library - QT: https://www.qt.io/  
 
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
