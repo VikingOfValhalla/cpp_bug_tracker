@@ -4,11 +4,11 @@
 
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
-| <ul><li> [ ] Submit Ticket </li>| Not Started | |
+| <li> [ ] Submit Ticket </li>| Not Started | |
 | <li> - [ ] Title </li>| Not Started | |
 | <li> - [ ]  Description </li> | Not Started | | 
 | <li> - [ ] Attach Images </li> | Not Started | |
-| <li> - [ ] Delete Images </li></ul> | Not Started | |
+| <li> - [ ] Delete Images </li> | Not Started | |
 
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
