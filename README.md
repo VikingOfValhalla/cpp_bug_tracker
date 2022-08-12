@@ -4,8 +4,8 @@
 
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
-| [ ] Submit Ticket | Not Started | |
-| <ul><li> - [ ] Title </li>| Not Started | |
+| <ul> [ ] Submit Ticket | Not Started | |
+| <li> - [ ] Title </li>| Not Started | |
 | <li> - [ ]  Description </li> | Not Started | | 
 | <li> - [ ] Attach Images </li> | Not Started | |
 | <li> - [ ] Delete Images </li></ul> | Not Started | |
