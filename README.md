@@ -1,5 +1,9 @@
 # C++ Bug Tracker:
 
+Ticketing system aimed at displaying, tracking, and managing bugs for actionable requests.
+
+GUI Library - QT: https://www.qt.io/
+
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
 | <li> [ ] **_Submit Ticket_** </li> | Not Started | |
