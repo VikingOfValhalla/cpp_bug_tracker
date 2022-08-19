@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include <QStandardItemModel>
+#include <QTableView>
 
 namespace Ui {
   class MainWindow;
@@ -20,5 +22,7 @@ class MainWindow : public QMainWindow
         QPushButton *m_button_2;
         QPushButton *m_button_3;
         QPushButton *m_button_4;
+
+        Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
