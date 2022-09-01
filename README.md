@@ -24,3 +24,17 @@ Current Status:
 | <li> - [ ] - Highlight revised information </li> | Not Started | |
 | <li> - [ ] **_Assign Ticket_** </li> | Not Started | |
 | <li> - [ ] **_Report of Open Tickets_** </li> | Not Started | |
+
+
+
+
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
