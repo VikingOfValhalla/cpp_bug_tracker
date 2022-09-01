@@ -8,7 +8,7 @@ GUI Library - QT: https://www.qt.io/
 Current Status:  
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/VikingOfValhalla/cpp_bug_tracker/master/current_design_status.png"/>
+<img src="https://raw.githubusercontent.com/VikingOfValhalla/cpp_bug_tracker/devel/updated_changes.png"/>
 </p>
 
 | **Features** | **Status** | **Comment** |
