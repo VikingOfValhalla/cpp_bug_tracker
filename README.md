@@ -11,30 +11,15 @@ Current Status:
 <img src="https://raw.githubusercontent.com/VikingOfValhalla/cpp_bug_tracker/devel/updated_changes.png"/>
 </p>
 
-| **Features** | **Status** | **Comment** |
-| ------------- | ------------- | ------------- |
-- [ ] **_Submit Ticket_** | Not Started | |
-| <li> - [ ] - Title </li>| Not Started | |
-| <li> - [ ] - Description </li> | Not Started | | 
-| <li> - [ ] - Attach Images </li> | Not Started | |
-| <li> - [ ] - Delete Images </li> | Not Started | |
-| <li> - [ ] **_Delete Ticket_** </li> | Not Started | |
-| <li> - [ ] - Reason Why </li> | Not Started | |
-| <li> - [ ] **_Update Ticket_** </li> | Not Started | |
-| <li> - [ ] - Highlight revised information </li> | Not Started | |
-| <li> - [ ] **_Assign Ticket_** </li> | Not Started | |
-| <li> - [ ] **_Report of Open Tickets_** </li> | Not Started | |
-
-
-
-
-
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+ - [ ] **Submit Ticket** | Not Started
+	 - [ ] Title | Not Started
+	 - [ ] Description | Not Started
+	 - [ ] List item | Not Started
+- [ ] **Attach Images** | Not Started
+	- [ ] Delete Images | Not Started
+- [ ] **Delete Ticket** | Not Started
+	- [ ] Reason Why | Not Started
+- [ ] **Update Ticket** | Not Started
+	- [ ] Highlight Revised Information | Not Started
+- [ ] **Assign Ticket** | Not Started
+- [ ] **Report of Open Tickets** | Started
