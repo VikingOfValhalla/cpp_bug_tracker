@@ -13,7 +13,7 @@ Current Status:
 
 | **Features** | **Status** | **Comment** |
 | ------------- | ------------- | ------------- |
-| - [ ] **_Submit Ticket_** | Not Started | |
+| - [ ] | **_Submit Ticket_** | Not Started | |
 | <li> - [ ] - Title </li>| Not Started | |
 | <li> - [ ] - Description </li> | Not Started | | 
 | <li> - [ ] - Attach Images </li> | Not Started | |
