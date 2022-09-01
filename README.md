@@ -11,9 +11,9 @@ Current Status:
 <img src="https://raw.githubusercontent.com/VikingOfValhalla/cpp_bug_tracker/devel/updated_changes.png"/>
 </p>
 
-| **Features** | **Status** | **Comment** |
-| ------------- | ------------- | ------------- |
-|<li>- [ ] **_Submit Ticket_**</li> | Not Started | |
+| **Status** | **Comment** |
+| ------------- | ------------- |
+- [ ] **_Submit Ticket_** | Not Started | |
 | <li> - [ ] - Title </li>| Not Started | |
 | <li> - [ ] - Description </li> | Not Started | | 
 | <li> - [ ] - Attach Images </li> | Not Started | |
