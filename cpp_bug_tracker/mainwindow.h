@@ -16,11 +16,12 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
-
+    void on_add_ticket_clicked();
     void on_delete_ticket_clicked();
+    void on_save_button_clicked();
 
 private:
     Ui::MainWindow *ui;
+
 };
 #endif // MAINWINDOW_H

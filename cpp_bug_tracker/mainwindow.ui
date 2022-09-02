@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>853</width>
-    <height>485</height>
+    <width>863</width>
+    <height>578</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -21,19 +21,6 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QPushButton" name="pushButton">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="text">
-       <string>Add Ticket</string>
-      </property>
-     </widget>
-    </item>
     <item row="2" column="0">
      <widget class="QPushButton" name="delete_ticket">
       <property name="sizePolicy">
@@ -48,7 +35,7 @@
      </widget>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="update_ticket">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -61,7 +48,7 @@
      </widget>
     </item>
     <item row="3" column="0">
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="extract_report">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -117,7 +104,7 @@
     <item row="4" column="1">
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="3" column="1">
-       <widget class="QTextEdit" name="textEdit"/>
+       <widget class="QTextEdit" name="description_input"/>
       </item>
       <item row="0" column="0">
        <widget class="QLabel" name="label_3">
@@ -133,16 +120,41 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="1">
-       <widget class="QComboBox" name="comboBox"/>
-      </item>
       <item row="0" column="1">
-       <widget class="QDateEdit" name="dateEdit"/>
+       <widget class="QDateEdit" name="due_date">
+        <property name="dateTime">
+         <datetime>
+          <hour>0</hour>
+          <minute>0</minute>
+          <second>0</second>
+          <year>2022</year>
+          <month>9</month>
+          <day>2</day>
+         </datetime>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="assignee_box">
+        <item>
+         <property name="text">
+          <string>Select from Dropdown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Not Listed? Add an Assignee</string>
+         </property>
+        </item>
+       </widget>
       </item>
       <item row="2" column="1">
        <widget class="QLabel" name="label">
         <property name="text">
          <string>Description</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -151,7 +163,110 @@
         <property name="currentIndex">
          <number>0</number>
         </property>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>Tab 2</string>
+         </attribute>
+         <widget class="QWidget" name="verticalLayoutWidget_3">
+          <property name="geometry">
+           <rect>
+            <x>-1</x>
+            <y>9</y>
+            <width>341</width>
+            <height>241</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="text">
+              <string>Click to Attach</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_6">
+             <property name="text">
+              <string>Click to Attach</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_7">
+             <property name="text">
+              <string>Click to Attach</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>Click to Attach</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="Line" name="line">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QCheckBox" name="checkBox">
+               <property name="text">
+                <string>Low</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QCheckBox" name="checkBox_2">
+               <property name="text">
+                <string>High</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Priority</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QCheckBox" name="checkBox_3">
+               <property name="text">
+                <string>Medium</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
         <widget class="QWidget" name="tab_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <attribute name="title">
           <string>Tab 1</string>
          </attribute>
@@ -180,60 +295,42 @@
           </layout>
          </widget>
         </widget>
-        <widget class="QWidget" name="tab_4">
-         <attribute name="title">
-          <string>Tab 2</string>
-         </attribute>
-         <widget class="QWidget" name="verticalLayoutWidget_3">
-          <property name="geometry">
-           <rect>
-            <x>9</x>
-            <y>9</y>
-            <width>321</width>
-            <height>221</height>
-           </rect>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_5">
-           <item>
-            <widget class="QPushButton" name="pushButton_5">
-             <property name="text">
-              <string>PushButton</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_6">
-             <property name="text">
-              <string>PushButton</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_7">
-             <property name="text">
-              <string>PushButton</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <spacer name="verticalSpacer_2">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>40</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </widget>
-        </widget>
        </widget>
       </item>
      </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="add_ticket">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Add Ticket</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="save_button">
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="changes_label">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -242,7 +339,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>853</width>
+     <width>863</width>
      <height>22</height>
     </rect>
    </property>
