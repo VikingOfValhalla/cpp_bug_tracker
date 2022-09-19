@@ -3,4 +3,4 @@ debug
 release
 .qmake.stash
 
-build-cpp_bug_tracker-Desktop_Qt_6_3_1_GCC_64bit-Debug
+build-cpp*
