@@ -2,6 +2,9 @@
 #include "./ui_mainwindow.h"
 #include <iostream>
 #include <string>
+#include <QDebug>
+#include <iostream>
+#include <fstream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -92,6 +95,22 @@ void MainWindow::on_delete_ticket_clicked()
     ui->tableWidget->removeRow(selected_row);
 }
 
+void MainWindow::save_data_to_file()
+{
+    QString desc_data = ui->description_input->toPlainText(); // description input
+    QString assignee_data = ui->assignee_box->currentText(); // assignee input
+    QString date_data = ui->due_date->date().toString("MM/dd/yyyy"); // date input
+
+    QString all_data = desc_data + "," + assignee_data + "," + date_data;
+    std::string base64_encode(std::string const& s, bool url = false);
+    std::ofstream myfile;
+    myfile.open ("data.txt", std::ios::app);
+    myfile << all_data.toStdString() + "\n";
+    myfile.close();
+
+    // qDebug() << all_data;
+}
+
 void MainWindow::on_save_button_clicked()
 {
     // input field column # to populate
@@ -101,19 +120,21 @@ void MainWindow::on_save_button_clicked()
 
     // add text from widget to table
     QString desc_data = ui->description_input->toPlainText(); // description input
-    ui->tableWidget->setItem(selected_row, description, new QTableWidgetItem(desc_data));
-
     QString assignee_data = ui->assignee_box->currentText(); // assignee input
-    ui->tableWidget->setItem(selected_row, assignee, new QTableWidgetItem(assignee_data));
-
     QString date_data = ui->due_date->date().toString("MM/dd/yyyy"); // date input
+
+    // setting data to row
+    ui->tableWidget->setItem(selected_row, description, new QTableWidgetItem(desc_data));
+    ui->tableWidget->setItem(selected_row, assignee, new QTableWidgetItem(assignee_data));
     ui->tableWidget->setItem(selected_row, due_date, new QTableWidgetItem(date_data));
 
     check_checkbox_status(selected_row, priority); // priority input
 
     int attachment_data = attachment_links.size();
-    std::cout << "Count of Attachments: " << attachment_data << "\n"; // TODO: NEED TO FIX
+    // std::cout << "Count of Attachments: " << attachment_data << "\n"; // TODO: NEED TO FIX
     ui->tableWidget->setItem(selected_row, attachments, new QTableWidgetItem(QString::number(attachment_data)));
+
+    save_data_to_file();
 
     // remove text instructions
     ui->changes_label->setText("");
@@ -145,7 +166,7 @@ void MainWindow::on_update_ticket_clicked()
 void MainWindow::on_attach_button_1_clicked()
 {
     QString file_name = QFileDialog::getOpenFileName(this, "Open A File", "");
-    qDebug().nospace() << "File Name: " << file_name << '\n';
+    // qDebug().nospace() << "File Name: " << file_name << '\n';
     attachment_links[0] = file_name.toStdString();
     ui->attach_button_1->setEnabled(false);
 }

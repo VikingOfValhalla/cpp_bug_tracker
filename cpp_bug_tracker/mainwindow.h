@@ -16,6 +16,7 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    void load_saved_data();
     ~MainWindow();
 
 private slots:
@@ -23,6 +24,7 @@ private slots:
     void on_delete_ticket_clicked();
     void on_save_button_clicked();
     void on_update_ticket_clicked();
+    void save_data_to_file();
 
     // attachment buttons
     void on_attach_button_1_clicked();
